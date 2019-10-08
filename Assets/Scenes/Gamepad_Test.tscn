@@ -21,6 +21,7 @@ __meta__ = {
 }
 
 [node name="Sticks" type="Node2D" parent="XboxGamepad"]
+editor/display_folded = true
 
 [node name="LeftStick" type="Sprite" parent="XboxGamepad/Sticks"]
 position = Vector2( 296, 396 )
@@ -31,6 +32,7 @@ position = Vector2( 620, 528 )
 texture = ExtResource( 3 )
 
 [node name="Buttons" type="Node2D" parent="XboxGamepad"]
+editor/display_folded = true
 position = Vector2( -0.507324, 195.954 )
 
 [node name="UP" type="Sprite" parent="XboxGamepad/Buttons"]
