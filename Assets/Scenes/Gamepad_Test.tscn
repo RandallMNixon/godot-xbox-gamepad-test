@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Gamepad_Test.gd" type="Script" id=1]
-[ext_resource path="res://xbox_one_controller_template_2048x.png" type="Texture" id=2]
-[ext_resource path="res://red_button.png" type="Texture" id=3]
-[ext_resource path="res://green_button.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Scripts/Gamepad_Test.gd" type="Script" id=1]
+[ext_resource path="res://Assets/GFX/xbox_one_controller_template_2048x.png" type="Texture" id=2]
+[ext_resource path="res://Assets/GFX/red_button.png" type="Texture" id=3]
+[ext_resource path="res://Assets/GFX/green_button.png" type="Texture" id=4]
 
 [sub_resource type="ShaderMaterial" id=1]
 
@@ -21,7 +21,6 @@ __meta__ = {
 }
 
 [node name="Sticks" type="Node2D" parent="XboxGamepad"]
-editor/display_folded = true
 
 [node name="LeftStick" type="Sprite" parent="XboxGamepad/Sticks"]
 position = Vector2( 296, 396 )
@@ -32,7 +31,6 @@ position = Vector2( 620, 528 )
 texture = ExtResource( 3 )
 
 [node name="Buttons" type="Node2D" parent="XboxGamepad"]
-editor/display_folded = true
 position = Vector2( -0.507324, 195.954 )
 
 [node name="UP" type="Sprite" parent="XboxGamepad/Buttons"]

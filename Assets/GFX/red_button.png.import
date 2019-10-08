@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/xbox_one_controller_template_2048x.png-0952d91482cf823dbf3db91e24217604.stex"
+path="res://.import/red_button.png-64c66d78bf35d385537fd3fa1dd0ce99.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://xbox_one_controller_template_2048x.png"
-dest_files=[ "res://.import/xbox_one_controller_template_2048x.png-0952d91482cf823dbf3db91e24217604.stex" ]
+source_file="res://Assets/GFX/red_button.png"
+dest_files=[ "res://.import/red_button.png-64c66d78bf35d385537fd3fa1dd0ce99.stex" ]
 
 [params]
 

@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Gamepad_Test"
-run/main_scene="res://Gamepad_Test.tscn"
+run/main_scene="res://Assets/Scenes/Gamepad_Test.tscn"
 config/icon="res://icon.png"
 
 [input]
