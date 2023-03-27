@@ -72,23 +72,23 @@ texture = ExtResource("4")
 
 [node name="RB" type="Sprite2D" parent="XboxGamepad/Buttons"]
 material = SubResource("1")
-position = Vector2(696.607, 39.2108)
+position = Vector2(660, 42)
 texture = ExtResource("4")
 
 [node name="RT" type="Sprite2D" parent="XboxGamepad/Buttons"]
 material = SubResource("1")
-position = Vector2(776.998, 42.3307)
-texture = ExtResource("4")
+position = Vector2(715, 40)
+texture = ExtResource("3")
 
 [node name="LB" type="Sprite2D" parent="XboxGamepad/Buttons"]
 material = SubResource("1")
-position = Vector2(323.437, 39.5949)
+position = Vector2(364, 42)
 texture = ExtResource("4")
 
 [node name="LT" type="Sprite2D" parent="XboxGamepad/Buttons"]
 material = SubResource("1")
-position = Vector2(245.267, 42.3197)
-texture = ExtResource("4")
+position = Vector2(310, 40)
+texture = ExtResource("3")
 
 [node name="L3" type="Sprite2D" parent="XboxGamepad/Buttons"]
 material = SubResource("1")
